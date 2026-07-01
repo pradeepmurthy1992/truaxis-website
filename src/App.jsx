@@ -7,17 +7,30 @@ import Services from "./features/services/Services";
 import Enquiry from "./features/enquiry/Enquiry";
 import Contact from "./features/contact/Contact";
 
+import Industries from "./features/industries/Industries";
+import Process from "./features/process/Process";
+
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <Enquiry />
-      <Contact />
-      <Footer />
-    </>
+  <Navbar />
+
+  <Hero />
+
+  <About />
+
+  <Services />
+
+  <Industries />
+
+  <Process />
+
+  <Enquiry />
+
+  <Contact />
+
+  <Footer />
+</>
   );
 }
 

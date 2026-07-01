@@ -54,9 +54,15 @@ function Hero() {
 
             <div className="hero-placeholder">
 
-              TRUAXIS
+  <div>
 
-            </div>
+    <h2>TRUAXIS</h2>
+
+    <p>Independent Inspection</p>
+
+  </div>
+
+</div>
 
           </div>
 

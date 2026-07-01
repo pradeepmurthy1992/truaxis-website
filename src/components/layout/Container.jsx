@@ -1,23 +1,11 @@
-function Container({children}){
+import React from "react";
 
-return(
-
-<div
-style={{
-
-maxWidth:"1200px",
-
-margin:"0 auto"
-
-}}
->
-
-{children}
-
-</div>
-
-);
-
+function Container({ children }) {
+  return (
+    <div className="container">
+      {children}
+    </div>
+  );
 }
 
 export default Container;

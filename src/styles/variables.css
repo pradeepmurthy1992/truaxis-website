@@ -1,30 +1,48 @@
 :root{
 
+/* Brand */
+
 --primary:#0B3D91;
+
 --primary-dark:#082D6B;
 
 --secondary:#0F172A;
 
 --accent:#F59E0B;
 
+/* Background */
+
 --background:#F8FAFC;
 
 --surface:#FFFFFF;
+
+/* Text */
 
 --text:#1E293B;
 
 --muted:#64748B;
 
---border:#CBD5E1;
+/* Border */
 
---success:#10B981;
+--border:#E2E8F0;
 
---danger:#DC2626;
+/* Radius */
 
---radius:10px;
+--radius:12px;
 
---shadow:0 8px 24px rgba(0,0,0,.08);
+--radius-lg:20px;
+
+/* Shadow */
+
+--shadow:
+0 10px 30px rgba(15,23,42,.08);
+
+/* Width */
 
 --container:1200px;
+
+/* Transition */
+
+--transition:.30s ease;
 
 }

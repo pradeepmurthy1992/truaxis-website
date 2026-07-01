@@ -6,14 +6,15 @@ function Navbar() {
     <header className="navbar-wrapper">
       <Container>
         <div className="navbar">
-
           <div className="logo">
             <h2>TRUAXIS</h2>
-            <small>Inspection Services</small>
+
+            <small>
+              Independent Inspection Services
+            </small>
           </div>
 
           <nav className="nav-links">
-            <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#enquiry">Enquiry</a>
@@ -21,9 +22,8 @@ function Navbar() {
           </nav>
 
           <a href="#enquiry" className="nav-button">
-            Book Inspection
+            Request Inspection
           </a>
-
         </div>
       </Container>
     </header>

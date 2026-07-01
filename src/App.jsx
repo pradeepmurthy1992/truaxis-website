@@ -1,3 +1,5 @@
+import React from "react";
+
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 
@@ -6,37 +8,30 @@ import About from "./features/about/About";
 import Services from "./features/services/Services";
 import Industries from "./features/industries/Industries";
 import Process from "./features/process/Process";
-import Enquiry from "./features/enquiry/Enquiry";
-import Contact from "./features/contact/Contact";
 import WhyChoose from "./features/whychoose/WhyChoose";
+import Enquiry from "./features/enquiry/Enquiry";
 import Faq from "./features/faq/Faq";
-import React from "react";
+import Contact from "./features/contact/Contact";
 
 function App() {
   return (
     <>
-  <Navbar />
+      <Navbar />
 
-  <Hero />
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <Industries />
+        <Process />
+        <WhyChoose />
+        <Enquiry />
+        <Faq />
+        <Contact />
+      </main>
 
-  <About />
-
-  <Services />
-
-  <Industries />
-
-  <Process />
-
-  <WhyChoose />
-
-  <Enquiry />
-
-  <Faq />
-
-  <Contact />
-
-  <Footer />
-</>
+      <Footer />
+    </>
   );
 }
 

@@ -1,0 +1,8 @@
+{
+  "name": "TRUAXIS",
+  "short_name": "TRUAXIS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0F172A"
+}

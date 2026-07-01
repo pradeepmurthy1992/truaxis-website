@@ -2,15 +2,17 @@ import React from "react";
 
 function Industries() {
   const industries = [
-    "Commercial Buildings",
-    "Residential Apartments",
-    "Shopping Malls",
-    "Hospitals",
-    "Hotels",
-    "Airports",
-    "Educational Institutions",
-    "Industrial Facilities",
-  ];
+  "Commercial Buildings",
+  "Residential Apartments",
+  "Hospitals",
+  "Hotels",
+  "Shopping Malls",
+  "Industrial Facilities",
+  "Educational Institutions",
+  "Airports",
+  "Metro Stations",
+  "Government Buildings",
+];
 
   return (
     <section id="industries">

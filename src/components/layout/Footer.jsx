@@ -3,11 +3,41 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <p>© 2026 TRUAXIS. All Rights Reserved.</p>
 
-      <p>Independent Lift & Escalator Inspection Services.</p>
+      <h2>TRUAXIS</h2>
 
-      <p>Terms & Conditions - As and when applicable.</p>
+      <p>
+        Independent Lift & Escalator Inspection Services
+      </p>
+
+      <hr />
+
+      <p>
+        Services
+      </p>
+
+      <p>
+        About
+      </p>
+
+      <p>
+        Contact
+      </p>
+
+      <p>
+        Privacy Policy
+      </p>
+
+      <p>
+        Terms & Conditions (As Applicable)
+      </p>
+
+      <hr />
+
+      <p>
+        © 2026 TRUAXIS. All Rights Reserved.
+      </p>
+
     </footer>
   );
 }

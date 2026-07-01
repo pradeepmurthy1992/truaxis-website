@@ -1,7 +1,7 @@
 function App() {
   return (
-    <div>
-      {/* Navbar */}
+    <>
+      {/* ================= NAVBAR ================= */}
       <header>
         <h2>TRUAXIS</h2>
 
@@ -13,8 +13,8 @@ function App() {
         </nav>
       </header>
 
-      {/* Hero */}
-      <main id="home">
+      {/* ================= HERO ================= */}
+      <section id="home">
         <h1>Independent Lift & Escalator Inspection Services</h1>
 
         <p>
@@ -22,9 +22,40 @@ function App() {
         </p>
 
         <button>Book Inspection</button>
-        <button>Enquiry</button>
-      </main>
-    </div>
+        <button>Request Quote</button>
+      </section>
+
+      {/* ================= ABOUT ================= */}
+      <section id="about">
+        <h2>About TRUAXIS</h2>
+
+        <p>
+          Independent inspection services for lifts, escalators and vertical
+          transportation systems.
+        </p>
+      </section>
+
+      {/* ================= SERVICES ================= */}
+      <section id="services">
+        <h2>Our Services</h2>
+
+        <ul>
+          <li>Lift Inspection</li>
+          <li>Escalator Inspection</li>
+          <li>Periodic Safety Inspection</li>
+          <li>Third Party Inspection</li>
+        </ul>
+      </section>
+
+      {/* ================= CONTACT ================= */}
+      <section id="contact">
+        <h2>Contact</h2>
+
+        <p>Email</p>
+        <p>Phone</p>
+        <p>Location</p>
+      </section>
+    </>
   );
 }
 

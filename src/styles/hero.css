@@ -1,1 +1,78 @@
 
+/* ======================================
+   HERO
+====================================== */
+
+.hero {
+    padding: 110px 0;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero-tag {
+    color: var(--primary);
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    font-size: 56px;
+    line-height: 1.15;
+    color: var(--secondary);
+    margin-bottom: 28px;
+}
+
+.hero-description {
+    color: var(--muted);
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 32px;
+}
+
+.hero-highlights {
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.hero-highlights li {
+    margin-bottom: 12px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.primary-btn {
+    background: var(--primary);
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: var(--radius);
+}
+
+.secondary-btn {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    padding: 14px 28px;
+    border-radius: var(--radius);
+}
+
+.hero-placeholder {
+    height: 420px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}

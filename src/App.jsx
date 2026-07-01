@@ -1,4 +1,6 @@
 import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+
 import Hero from "./features/hero/Hero";
 import About from "./features/about/About";
 import Services from "./features/services/Services";
@@ -12,6 +14,9 @@ function App() {
       <Hero />
       <About />
       <Services />
+      <Enquiry />
+      <Contact />
+      <Footer />
     </>
   );
 }

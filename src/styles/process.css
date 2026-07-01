@@ -1,0 +1,47 @@
+/* ======================================
+   PROCESS
+====================================== */
+
+.process{
+
+background:#F8FAFC;
+
+}
+
+.process-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+}
+
+.process-card{
+
+background:white;
+
+padding:28px;
+
+border-radius:16px;
+
+border:1px solid var(--border);
+
+}
+
+.process-card h3{
+
+color:var(--primary);
+
+margin-bottom:16px;
+
+}
+
+.process-card p{
+
+color:var(--muted);
+
+line-height:1.7;
+
+}

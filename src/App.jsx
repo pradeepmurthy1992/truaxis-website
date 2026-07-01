@@ -10,6 +10,7 @@ import Enquiry from "./features/enquiry/Enquiry";
 import Contact from "./features/contact/Contact";
 import WhyChoose from "./features/whychoose/WhyChoose";
 import Faq from "./features/faq/Faq";
+import React from "react";
 
 function App() {
   return (

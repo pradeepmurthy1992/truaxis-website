@@ -1,15 +1,26 @@
 function Hero() {
   return (
     <section id="home">
-      <h1>Independent Lift & Escalator Inspection Services</h1>
+      <div>
+        <p>INDEPENDENT INSPECTION SERVICES</p>
 
-      <p>
-        Reliable • Independent • Professional
-      </p>
+        <h1>
+          Lift & Escalator
+          <br />
+          Inspection Experts
+        </h1>
 
-      <button>Book Inspection</button>
+        <p>
+          Independent third-party inspection services for lifts,
+          escalators and vertical transportation systems.
+        </p>
 
-      <button>Request Quote</button>
+        <div>
+          <button>Book Inspection</button>
+
+          <button>Request Quote</button>
+        </div>
+      </div>
     </section>
   );
 }

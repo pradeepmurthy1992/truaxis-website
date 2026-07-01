@@ -1,3 +1,5 @@
+import React from "react";
+
 function WhyChoose() {
   const points = [
     "Independent & Impartial Inspections",

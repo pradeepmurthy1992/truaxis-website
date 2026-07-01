@@ -6,18 +6,16 @@ function Navbar() {
     <header className="navbar-wrapper">
       <Container>
         <div className="navbar">
-          <div className="logo">
+          <a href="#home" className="logo">
             <h2>TRUAXIS</h2>
-
-            <small>
-              Independent Inspection Services
-            </small>
-          </div>
+            <span>Independent Inspection Services</span>
+          </a>
 
           <nav className="nav-links">
             <a href="#about">About</a>
             <a href="#services">Services</a>
-            <a href="#enquiry">Enquiry</a>
+            <a href="#industries">Industries</a>
+            <a href="#process">Process</a>
             <a href="#contact">Contact</a>
           </nav>
 

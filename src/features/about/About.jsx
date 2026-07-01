@@ -1,19 +1,30 @@
 import React from "react";
+import Container from "../../components/layout/Container";
+
 function About() {
   return (
     <section id="about">
-      <div>
+      <Container>
+
         <p>ABOUT TRUAXIS</p>
 
-        <h2>Independent Inspection. Trusted Expertise.</h2>
+        <h2>Focused Exclusively on Independent Inspection Services</h2>
 
         <p>
-          TRUAXIS provides independent lift and escalator inspection services
-          to help clients ensure safety, compliance, and operational
-          reliability. We focus solely on inspection services with an
-          impartial and professional approach.
+          TRUAXIS is an independent inspection company dedicated to lift,
+          escalator and moving walkway inspections. We provide objective
+          technical assessments to support building owners, facility managers,
+          developers and maintenance providers in making informed decisions
+          regarding equipment safety and operational performance.
         </p>
-      </div>
+
+        <p>
+          Our commitment is to deliver professional, transparent and reliable
+          inspection services while maintaining complete independence from
+          equipment supply, installation and maintenance activities.
+        </p>
+
+      </Container>
     </section>
   );
 }

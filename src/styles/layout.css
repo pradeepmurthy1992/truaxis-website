@@ -1,1 +1,87 @@
 
+/* =========================
+   CONTAINER
+========================= */
+
+.container{
+
+    width:min(1200px,92%);
+
+    margin:auto;
+
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar-wrapper{
+
+    background:#fff;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:100;
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    min-height:82px;
+
+}
+
+.logo h2{
+
+    color:var(--primary);
+
+    font-size:32px;
+
+}
+
+.logo small{
+
+    color:var(--muted);
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+.nav-links a{
+
+    font-weight:600;
+
+}
+
+.nav-button{
+
+    background:var(--primary);
+
+    color:#fff;
+
+    padding:14px 24px;
+
+    border-radius:8px;
+
+}

@@ -1,11 +1,7 @@
 import Hero from "./features/hero/Hero";
 
 function App() {
-  return (
-    <>
-      <Hero />
-    </>
-  );
+  return <Hero />;
 }
 
 export default App;

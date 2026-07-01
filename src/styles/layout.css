@@ -1,87 +1,112 @@
-
-/* =========================
+/* ======================================
    CONTAINER
-========================= */
+====================================== */
 
-.container{
-
-    width:min(1200px,92%);
-
-    margin:auto;
-
+.container {
+    width: min(1200px, 92%);
+    margin: auto;
 }
 
-
-/* =========================
+/* ======================================
    NAVBAR
-========================= */
+====================================== */
 
-.navbar-wrapper{
+.navbar-wrapper {
 
-    background:#fff;
+    position: sticky;
 
-    position:sticky;
+    top: 0;
 
-    top:0;
+    background: #ffffff;
 
-    z-index:100;
+    border-bottom: 1px solid var(--border);
 
-    border-bottom:1px solid var(--border);
-
-}
-
-.navbar{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    min-height:82px;
+    z-index: 999;
 
 }
 
-.logo h2{
+.navbar {
 
-    color:var(--primary);
+    display: flex;
 
-    font-size:32px;
+    align-items: center;
 
-}
+    justify-content: space-between;
 
-.logo small{
-
-    color:var(--muted);
-
-    letter-spacing:2px;
-
-    text-transform:uppercase;
+    min-height: 82px;
 
 }
 
-.nav-links{
+.logo {
 
-    display:flex;
-
-    gap:30px;
+    text-decoration: none;
 
 }
 
-.nav-links a{
+.logo h2 {
 
-    font-weight:600;
+    color: var(--primary);
+
+    font-size: 32px;
+
+    margin: 0;
 
 }
 
-.nav-button{
+.logo span {
 
-    background:var(--primary);
+    display: block;
 
-    color:#fff;
+    font-size: 11px;
 
-    padding:14px 24px;
+    text-transform: uppercase;
 
-    border-radius:8px;
+    letter-spacing: 2px;
+
+    color: var(--muted);
+
+}
+
+.nav-links {
+
+    display: flex;
+
+    gap: 36px;
+
+}
+
+.nav-links a {
+
+    color: var(--text);
+
+    font-weight: 600;
+
+    transition: .25s;
+
+}
+
+.nav-links a:hover {
+
+    color: var(--primary);
+
+}
+
+.nav-button {
+
+    background: var(--primary);
+
+    color: white;
+
+    padding: 14px 24px;
+
+    border-radius: var(--radius);
+
+    font-weight: 600;
+
+}
+
+.nav-button:hover {
+
+    background: var(--primary-dark);
 
 }

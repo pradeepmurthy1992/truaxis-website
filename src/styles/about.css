@@ -1,1 +1,64 @@
 
+/* ======================================
+   ABOUT
+====================================== */
+
+.about{
+
+background:#F8FAFC;
+
+}
+
+.about-grid{
+
+display:grid;
+
+grid-template-columns:2fr 1fr;
+
+gap:50px;
+
+align-items:start;
+
+}
+
+.about-grid p{
+
+color:var(--muted);
+
+line-height:1.8;
+
+}
+
+.about-card{
+
+background:white;
+
+padding:30px;
+
+border-radius:16px;
+
+border:1px solid var(--border);
+
+box-shadow:var(--shadow);
+
+}
+
+.about-card h3{
+
+margin-bottom:20px;
+
+color:var(--secondary);
+
+}
+
+.about-card ul{
+
+list-style:none;
+
+}
+
+.about-card li{
+
+margin-bottom:14px;
+
+}

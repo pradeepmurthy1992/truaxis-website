@@ -1,14 +1,15 @@
 function Process() {
   return (
     <section id="process">
-      <p>OUR PROCESS</p>
+      <p>OUR INSPECTION PROCESS</p>
 
-      <h2>Simple & Transparent</h2>
+      <h2>Simple. Transparent. Professional.</h2>
 
       <ol>
         <li>Receive Enquiry</li>
-        <li>Schedule Inspection</li>
-        <li>Conduct Site Inspection</li>
+        <li>Review Requirements</li>
+        <li>Schedule Site Visit</li>
+        <li>Conduct Inspection</li>
         <li>Prepare Inspection Report</li>
         <li>Submit Final Report</li>
       </ol>

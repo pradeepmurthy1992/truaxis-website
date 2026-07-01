@@ -12,16 +12,22 @@ function Hero() {
             </p>
 
             <h1>
-              Reliable Independent Inspection Services for Vertical
-              Transportation Systems
+              Independent Inspection Services for
+              <br />
+              Lifts & Escalators
             </h1>
 
             <p className="hero-description">
-              TRUAXIS provides professional third-party inspection services for
+              TRUAXIS delivers professional third-party inspection services for
               lifts, escalators and moving walkways, helping clients improve
-              safety, operational reliability and informed decision-making
-              through independent technical assessments.
+              safety, operational reliability and informed decision-making.
             </p>
+
+            <ul className="hero-highlights">
+              <li>Independent Technical Assessment</li>
+              <li>Professional Inspection Reports</li>
+              <li>Experienced Inspection Engineers</li>
+            </ul>
 
             <div className="hero-buttons">
               <a href="#enquiry" className="primary-btn">
@@ -29,7 +35,7 @@ function Hero() {
               </a>
 
               <a href="#contact" className="secondary-btn">
-                Request Quote
+                Contact Us
               </a>
             </div>
           </div>
@@ -38,7 +44,7 @@ function Hero() {
             <div className="hero-placeholder">
               TRUAXIS
               <br />
-              Independent Inspection
+              INSPECTION
             </div>
           </div>
         </div>

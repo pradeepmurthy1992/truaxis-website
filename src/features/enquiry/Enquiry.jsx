@@ -1,3 +1,5 @@
+import React from "react";
+
 function Enquiry() {
   return (
     <section id="enquiry">

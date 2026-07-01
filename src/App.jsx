@@ -8,6 +8,8 @@ import Industries from "./features/industries/Industries";
 import Process from "./features/process/Process";
 import Enquiry from "./features/enquiry/Enquiry";
 import Contact from "./features/contact/Contact";
+import WhyChoose from "./features/whychoose/WhyChoose";
+import Faq from "./features/faq/Faq";
 
 function App() {
   return (
@@ -24,7 +26,11 @@ function App() {
 
   <Process />
 
+  <WhyChoose />
+
   <Enquiry />
+
+  <Faq />
 
   <Contact />
 

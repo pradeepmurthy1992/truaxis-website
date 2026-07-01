@@ -1,3 +1,5 @@
+import React from "react";
+
 function Industries() {
   const industries = [
     "Commercial Buildings",

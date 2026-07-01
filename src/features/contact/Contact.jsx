@@ -1,38 +1,47 @@
 import React from "react";
+import Container from "../../components/layout/Container";
 
 function Contact() {
   return (
     <section id="contact">
-      <p>CONTACT US</p>
+      <Container>
+        <p>CONTACT US</p>
 
-      <h2>Let's Discuss Your Inspection Requirement</h2>
+        <h2>Let's Discuss Your Inspection Requirements</h2>
 
-      <p>
-        TRUAXIS Inspection Services
-      </p>
+        <p>
+          We'd be happy to discuss your inspection requirements and provide the
+          right independent inspection solution for your project.
+        </p>
 
-      <p>
-        Bengaluru, Karnataka, India
-      </p>
+        <br />
 
-      <p>
-        Phone : +91 XXXXXXXXXX
-      </p>
+        <h3>TRUAXIS Inspection Services</h3>
 
-      <p>
-        Email : info@truaxis.in
-      </p>
+        <p>Bengaluru, Karnataka, India</p>
 
-      <p>
-        Business Hours :
-        Monday - Saturday
-        9:00 AM - 6:00 PM
-      </p>
+        <br />
 
-      <p>
-        GSTIN :
-        Available on Invoice
-      </p>
+        <p>
+          <strong>Email:</strong> info@truaxis.in
+        </p>
+
+        <p>
+          <strong>Phone:</strong> +91 XXXXXXXXXX
+        </p>
+
+        <p>
+          <strong>GSTIN:</strong> Will be updated
+        </p>
+
+        <p>
+          <strong>Business Hours:</strong>
+          <br />
+          Monday - Saturday
+          <br />
+          09:00 AM - 06:00 PM
+        </p>
+      </Container>
     </section>
   );
 }

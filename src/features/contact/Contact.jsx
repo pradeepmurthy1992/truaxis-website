@@ -5,29 +5,34 @@ function Contact() {
     <section id="contact">
       <p>CONTACT US</p>
 
-      <h2>Let's Talk About Your Inspection Requirements</h2>
+      <h2>Let's Discuss Your Inspection Requirement</h2>
 
-      <div>
-        <div>
-          <h3>Office</h3>
+      <p>
+        TRUAXIS Inspection Services
+      </p>
 
-          <p>TRUAXIS</p>
+      <p>
+        Bengaluru, Karnataka, India
+      </p>
 
-          <p>Bengaluru, Karnataka, India</p>
+      <p>
+        Phone : +91 XXXXXXXXXX
+      </p>
 
-          <p>GSTIN: XXXXXXXXXXXXXXX</p>
-        </div>
+      <p>
+        Email : info@truaxis.in
+      </p>
 
-        <div>
-          <h3>Get in Touch</h3>
+      <p>
+        Business Hours :
+        Monday - Saturday
+        9:00 AM - 6:00 PM
+      </p>
 
-          <p>Email: info@truaxis.in</p>
-
-          <p>Phone: +91 XXXXXXXXXX</p>
-
-          <p>Working Hours: Mon - Sat | 9:00 AM - 6:00 PM</p>
-        </div>
-      </div>
+      <p>
+        GSTIN :
+        Available on Invoice
+      </p>
     </section>
   );
 }

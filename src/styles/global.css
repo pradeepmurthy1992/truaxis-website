@@ -281,3 +281,31 @@ border-radius:20px;
 box-shadow:var(--shadow);
 
 }
+
+@media (max-width:900px){
+
+.hero-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.nav-links{
+
+display:none;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+}
+
+}

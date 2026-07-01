@@ -9,7 +9,7 @@ function Navbar() {
 
         <div className="navbar">
 
-          <a href="#home" className="logo">
+          <a href="/" className="logo">
 
             <h2>TRUAXIS</h2>
 

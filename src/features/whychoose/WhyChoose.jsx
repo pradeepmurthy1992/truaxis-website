@@ -2,19 +2,21 @@ import React from "react";
 
 function WhyChoose() {
   const points = [
-    "Independent & Impartial Inspections",
-    "Experienced Inspection Professionals",
-    "Transparent Reporting",
-    "Timely Service Delivery",
-    "Customer-Focused Approach",
-    "Reliable Technical Expertise",
+    "Independent & Impartial Inspection",
+    "Experienced Inspection Engineers",
+    "Transparent Technical Reporting",
+    "Timely Project Execution",
+    "Customer-Focused Service",
+    "Reliable Technical Assessment",
+    "Flexible Inspection Scheduling",
+    "Professional Documentation",
   ];
 
   return (
     <section id="why-choose">
-      <p>WHY TRUAXIS</p>
+      <p>WHY CHOOSE TRUAXIS</p>
 
-      <h2>Why Choose TRUAXIS?</h2>
+      <h2>Trusted Inspection Partner</h2>
 
       <ul>
         {points.map((point) => (

@@ -1,73 +1,79 @@
-@media(max-width:1100px){
+/* =====================================
+   RESPONSIVE
+===================================== */
 
-.hero-grid,
-.about-grid,
-.enquiry-grid{
+@media (max-width: 1100px) {
 
-grid-template-columns:1fr;
+  .hero-grid,
+  .about-grid,
+  .enquiry-grid,
+  .contact-grid,
+  .footer-grid {
 
-}
+    grid-template-columns: 1fr;
 
-.services-grid,
-.industry-grid{
+  }
 
-grid-template-columns:repeat(2,1fr);
+  .services-grid,
+  .industry-grid {
 
-}
+    grid-template-columns: repeat(2, 1fr);
 
-.process-grid{
+  }
 
-grid-template-columns:repeat(3,1fr);
+  .process-grid {
 
-}
+    grid-template-columns: repeat(3, 1fr);
 
-.why-grid{
+  }
 
-grid-template-columns:repeat(2,1fr);
+  .why-grid {
 
-}
+    grid-template-columns: repeat(2, 1fr);
 
-}
-
-@media(max-width:768px){
-
-.nav-links{
-
-display:none;
+  }
 
 }
 
-.hero{
+@media (max-width: 768px) {
 
-padding:70px 0;
+  .nav-links {
 
-}
+    display: none;
 
-.hero h1{
+  }
 
-font-size:42px;
+  .hero {
 
-}
+    padding: 70px 0;
 
-.hero-buttons{
+  }
 
-flex-direction:column;
+  .hero h1 {
 
-}
+    font-size: 42px;
 
-.services-grid,
-.industry-grid,
-.process-grid,
-.why-grid{
+  }
 
-grid-template-columns:1fr;
+  .hero-buttons {
 
-}
+    flex-direction: column;
 
-.section-title{
+  }
 
-font-size:34px;
+  .services-grid,
+  .industry-grid,
+  .process-grid,
+  .why-grid {
 
-}
+    grid-template-columns: 1fr;
+
+  }
+
+  .section-title {
+
+    font-size: 34px;
+
+  }
 
 }

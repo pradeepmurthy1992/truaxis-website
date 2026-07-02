@@ -1,30 +1,68 @@
 import React from "react";
+import Container from "../../components/layout/Container";
 
-function WhyChoose() {
-  const points = [
-    "Independent & Impartial Inspection",
-    "Experienced Inspection Engineers",
-    "Transparent Technical Reporting",
-    "Timely Project Execution",
-    "Customer-Focused Service",
-    "Reliable Technical Assessment",
-    "Flexible Inspection Scheduling",
-    "Professional Documentation",
-  ];
+const points=[
 
-  return (
-    <section id="why-choose">
-      <p>WHY CHOOSE TRUAXIS</p>
+"Independent & Impartial",
 
-      <h2>Trusted Inspection Partner</h2>
+"Qualified Technical Experts",
 
-      <ul>
-        {points.map((point) => (
-          <li key={point}>✔ {point}</li>
-        ))}
-      </ul>
-    </section>
-  );
+"Clear Inspection Reports",
+
+"Standards Based Assessment",
+
+"Professional Client Support",
+
+"Fast Turnaround"
+
+];
+
+function WhyChoose(){
+
+return(
+
+<section
+className="whychoose"
+id="whychoose"
+>
+
+<Container>
+
+<p className="section-tag">
+
+WHY TRUAXIS
+
+</p>
+
+<h2 className="section-title">
+
+Why Clients Trust Us
+
+</h2>
+
+<div className="why-grid">
+
+{points.map((point)=>(
+
+<div
+className="why-card"
+key={point}
+>
+
+✓ {point}
+
+</div>
+
+))}
+
+</div>
+
+</Container>
+
+</section>
+
+);
+
 }
 
 export default WhyChoose;

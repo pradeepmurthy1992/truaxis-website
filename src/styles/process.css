@@ -1,10 +1,6 @@
-/* ======================================
-   PROCESS
-====================================== */
-
 .process{
 
-background:#F8FAFC;
+background:#fff;
 
 }
 
@@ -12,36 +8,62 @@ background:#F8FAFC;
 
 display:grid;
 
-grid-template-columns:repeat(3,1fr);
+grid-template-columns:repeat(5,1fr);
 
-gap:30px;
+gap:25px;
+
+margin-top:50px;
 
 }
 
 .process-card{
 
-background:white;
+padding:40px 25px;
 
-padding:28px;
+background:#F8FAFC;
 
-border-radius:16px;
+border-radius:18px;
 
 border:1px solid var(--border);
 
-}
+text-align:center;
 
-.process-card h3{
-
-color:var(--primary);
-
-margin-bottom:16px;
+transition:.3s;
 
 }
 
-.process-card p{
+.process-card:hover{
 
-color:var(--muted);
+transform:translateY(-8px);
 
-line-height:1.7;
+box-shadow:var(--shadow);
+
+}
+
+.process-number{
+
+width:65px;
+
+height:65px;
+
+margin:auto;
+
+margin-bottom:25px;
+
+border-radius:50%;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+background:var(--primary);
+
+color:white;
+
+font-size:22px;
+
+font-weight:700;
 
 }

@@ -8,44 +8,58 @@ function About() {
         <p className="section-tag">ABOUT TRUAXIS</p>
 
         <h2 className="section-title">
-          Independent Inspection You Can Trust
+          Independent Inspection.
+          <br />
+          Trusted Expertise.
         </h2>
 
         <div className="about-grid">
+
           <div>
+
             <p>
-              TRUAXIS is an independent inspection company specializing in
-              lifts, escalators and moving walkways.
+              TRUAXIS is an independent inspection company focused exclusively
+              on lift, escalator and moving walkway inspection services.
             </p>
 
             <br />
 
             <p>
-              Our objective is to provide impartial technical inspections that
-              help clients make informed decisions regarding equipment safety,
-              operational performance and long-term reliability.
+              We help property owners, facility managers, consultants,
+              developers and maintenance providers ensure safety,
+              compliance and operational reliability through impartial
+              technical inspections.
             </p>
 
             <br />
 
             <p>
-              We remain completely independent from equipment manufacturers,
-              suppliers and maintenance providers, ensuring unbiased inspection
-              reports and technical observations.
+              Our reports are clear, unbiased and prepared to support
+              informed engineering decisions.
             </p>
+
           </div>
 
           <div className="about-card">
-            <h3>Our Commitment</h3>
+
+            <h3>Why Independence Matters</h3>
 
             <ul>
-              <li>Independent Assessments</li>
-              <li>Professional Reporting</li>
-              <li>Transparent Communication</li>
-              <li>Timely Delivery</li>
-              <li>Customer Focused</li>
+
+              <li>✓ Unbiased Assessment</li>
+
+              <li>✓ Safety Focused</li>
+
+              <li>✓ Technical Expertise</li>
+
+              <li>✓ Professional Reporting</li>
+
+              <li>✓ Transparent Recommendations</li>
+
             </ul>
+
           </div>
+
         </div>
       </Container>
     </section>

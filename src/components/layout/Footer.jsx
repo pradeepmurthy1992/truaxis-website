@@ -1,44 +1,66 @@
 import React from "react";
+import Container from "./Container";
 
 function Footer() {
   return (
-    <footer>
 
-      <h2>TRUAXIS</h2>
+<footer className="footer">
 
-      <p>
-        Independent Lift & Escalator Inspection Services
-      </p>
+<Container>
 
-      <hr />
+<div className="footer-grid">
 
-      <p>
-        Services
-      </p>
+<div>
 
-      <p>
-        About
-      </p>
+<h2>TRUAXIS</h2>
 
-      <p>
-        Contact
-      </p>
+<p>
 
-      <p>
-        Privacy Policy
-      </p>
+Independent Lift &
+Escalator Inspection
+Services
 
-      <p>
-        Terms & Conditions (As Applicable)
-      </p>
+</p>
 
-      <hr />
+</div>
 
-      <p>
-        © 2026 TRUAXIS. All Rights Reserved.
-      </p>
+<div>
 
-    </footer>
+<h4>Company</h4>
+
+<a href="#about">About</a><br/>
+
+<a href="#services">Services</a><br/>
+
+<a href="#contact">Contact</a>
+
+</div>
+
+<div>
+
+<h4>Contact</h4>
+
+<p>info@truaxis.in</p>
+
+<p>+91 XXXXX XXXXX</p>
+
+</div>
+
+</div>
+
+<hr/>
+
+<p className="copyright">
+
+© 2026 TRUAXIS.
+All Rights Reserved.
+
+</p>
+
+</Container>
+
+</footer>
+
   );
 }
 

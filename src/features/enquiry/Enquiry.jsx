@@ -1,59 +1,88 @@
 import React from "react";
+import Container from "../../components/layout/Container";
 
 function Enquiry() {
   return (
-    <section id="enquiry">
-      <p>BOOK INSPECTION / REQUEST QUOTE</p>
+    <section className="enquiry" id="enquiry">
 
-      <h2>Send Us Your Requirement</h2>
+      <Container>
 
-      <form>
+        <p className="section-tag">
+          REQUEST INSPECTION
+        </p>
 
-        <input
-          type="text"
-          placeholder="Full Name"
-        />
+        <h2 className="section-title">
+          Let's Discuss Your Inspection Requirements
+        </h2>
 
-        <input
-          type="text"
-          placeholder="Company Name"
-        />
+        <div className="enquiry-grid">
 
-        <input
-          type="tel"
-          placeholder="Phone Number"
-        />
+          <div className="enquiry-info">
 
-        <input
-          type="email"
-          placeholder="Email Address"
-        />
+            <h3>Why Contact TRUAXIS?</h3>
 
-        <input
-          type="text"
-          placeholder="City"
-        />
+            <p>
 
-        <input
-          type="text"
-          placeholder="Equipment Type"
-        />
+              Whether you're planning a new installation,
+              periodic inspection or third-party verification,
+              our technical experts are ready to assist.
 
-        <input
-          type="text"
-          placeholder="Service Required"
-        />
+            </p>
 
-        <textarea
-          rows="5"
-          placeholder="Tell us about your inspection requirement..."
-        ></textarea>
+            <ul>
 
-        <button type="submit">
-          Submit Enquiry
-        </button>
+              <li>✓ Independent Technical Assessment</li>
 
-      </form>
+              <li>✓ Fast Response</li>
+
+              <li>✓ Professional Reports</li>
+
+              <li>✓ PAN India Support (Future)</li>
+
+            </ul>
+
+          </div>
+
+          <form className="enquiry-form">
+
+            <input
+              type="text"
+              placeholder="Full Name"
+            />
+
+            <input
+              type="email"
+              placeholder="Email Address"
+            />
+
+            <input
+              type="tel"
+              placeholder="Phone Number"
+            />
+
+            <input
+              type="text"
+              placeholder="Company"
+            />
+
+            <textarea
+              rows="6"
+              placeholder="Tell us about your inspection requirement..."
+            />
+
+            <button
+              className="primary-btn"
+              type="submit"
+            >
+              Submit Request
+            </button>
+
+          </form>
+
+        </div>
+
+      </Container>
+
     </section>
   );
 }

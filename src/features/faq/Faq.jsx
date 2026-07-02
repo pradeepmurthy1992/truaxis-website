@@ -1,28 +1,78 @@
 import React from "react";
+import Container from "../../components/layout/Container";
 
-function Faq() {
-  return (
-    <section id="faq">
-      <p>FREQUENTLY ASKED QUESTIONS</p>
+const faqs = [
 
-      <h2>FAQs</h2>
+{
+q:"What inspection services do you provide?",
+a:"We provide independent inspection services for lifts, escalators and moving walkways."
+},
 
-      <h3>Do you provide inspection certificates?</h3>
-      <p>
-        No. TRUAXIS provides independent inspection services and reports only.
-      </p>
+{
+q:"Are your inspections independent?",
+a:"Yes. Our inspections are impartial and independent from maintenance providers."
+},
 
-      <h3>Can I book a periodic inspection?</h3>
-      <p>
-        Yes. We offer scheduled inspection services based on your requirements.
-      </p>
+{
+q:"Do you provide inspection reports?",
+a:"Yes. Every inspection includes a professional technical report."
+},
 
-      <h3>Which equipment do you inspect?</h3>
-      <p>
-        Passenger lifts, freight lifts, escalators and moving walkways.
-      </p>
-    </section>
-  );
+{
+q:"Can inspections be scheduled?",
+a:"Yes. We schedule inspections based on client requirements."
+}
+
+];
+
+function Faq(){
+
+return(
+
+<section
+className="faq"
+id="faq"
+>
+
+<Container>
+
+<p className="section-tag">
+
+FAQ
+
+</p>
+
+<h2 className="section-title">
+
+Frequently Asked Questions
+
+</h2>
+
+<div className="faq-list">
+
+{faqs.map((faq)=>(
+
+<div
+className="faq-item"
+key={faq.q}
+>
+
+<h3>{faq.q}</h3>
+
+<p>{faq.a}</p>
+
+</div>
+
+))}
+
+</div>
+
+</Container>
+
+</section>
+
+);
+
 }
 
 export default Faq;

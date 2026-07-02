@@ -1,7 +1,8 @@
 @media(max-width:1100px){
 
 .hero-grid,
-.about-grid{
+.about-grid,
+.enquiry-grid{
 
 grid-template-columns:1fr;
 

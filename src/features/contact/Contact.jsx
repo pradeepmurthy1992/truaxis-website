@@ -3,45 +3,70 @@ import Container from "../../components/layout/Container";
 
 function Contact() {
   return (
-    <section id="contact">
+    <section className="contact" id="contact">
+
       <Container>
-        <p>CONTACT US</p>
 
-        <h2>Let's Discuss Your Inspection Requirements</h2>
-
-        <p>
-          We'd be happy to discuss your inspection requirements and provide the
-          right independent inspection solution for your project.
+        <p className="section-tag">
+          CONTACT
         </p>
 
-        <br />
+        <h2 className="section-title">
+          Get In Touch
+        </h2>
 
-        <h3>TRUAXIS Inspection Services</h3>
+        <div className="contact-grid">
 
-        <p>Bengaluru, Karnataka, India</p>
+          <div className="contact-card">
 
-        <br />
+            <h3>TRUAXIS</h3>
 
-        <p>
-          <strong>Email:</strong> info@truaxis.in
-        </p>
+            <p>
+              Independent Lift & Escalator Inspection Services
+            </p>
 
-        <p>
-          <strong>Phone:</strong> +91 XXXXXXXXXX
-        </p>
+            <br />
 
-        <p>
-          <strong>GSTIN:</strong> Will be updated
-        </p>
+            <p>
+              📍 Bangalore, Karnataka
+            </p>
 
-        <p>
-          <strong>Business Hours:</strong>
-          <br />
-          Monday - Saturday
-          <br />
-          09:00 AM - 06:00 PM
-        </p>
+            <p>
+              📞 +91 XXXXX XXXXX
+            </p>
+
+            <p>
+              ✉ info@truaxis.in
+            </p>
+
+          </div>
+
+          <div className="contact-card">
+
+            <h3>Business Hours</h3>
+
+            <p>Monday – Friday</p>
+
+            <p>09:00 AM – 06:00 PM</p>
+
+            <br />
+
+            <h3>Service Coverage</h3>
+
+            <p>
+              Karnataka (Phase 1)
+            </p>
+
+            <p>
+              PAN India (Planned)
+            </p>
+
+          </div>
+
+        </div>
+
       </Container>
+
     </section>
   );
 }

@@ -1,0 +1,39 @@
+.faq{
+
+background:white;
+
+}
+
+.faq-list{
+
+display:grid;
+
+gap:25px;
+
+}
+
+.faq-item{
+
+padding:30px;
+
+border-radius:16px;
+
+background:#F8FAFC;
+
+border:1px solid var(--border);
+
+}
+
+.faq-item h3{
+
+margin-bottom:12px;
+
+color:var(--secondary);
+
+}
+
+.faq-item p{
+
+color:var(--muted);
+
+}

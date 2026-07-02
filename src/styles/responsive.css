@@ -7,7 +7,20 @@ grid-template-columns:1fr;
 
 }
 
-.services-grid{
+.services-grid,
+.industry-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.process-grid{
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+.why-grid{
 
 grid-template-columns:repeat(2,1fr);
 
@@ -41,7 +54,10 @@ flex-direction:column;
 
 }
 
-.services-grid{
+.services-grid,
+.industry-grid,
+.process-grid,
+.why-grid{
 
 grid-template-columns:1fr;
 

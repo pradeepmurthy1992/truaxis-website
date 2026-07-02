@@ -1,11 +1,6 @@
-
-/* ======================================
-   ABOUT
-====================================== */
-
 .about{
 
-background:#F8FAFC;
+background:white;
 
 }
 
@@ -15,7 +10,7 @@ display:grid;
 
 grid-template-columns:2fr 1fr;
 
-gap:50px;
+gap:70px;
 
 align-items:start;
 
@@ -23,19 +18,21 @@ align-items:start;
 
 .about-grid p{
 
-color:var(--muted);
+font-size:18px;
 
-line-height:1.8;
+line-height:1.9;
+
+color:var(--muted);
 
 }
 
 .about-card{
 
-background:white;
+padding:36px;
 
-padding:30px;
+background:#F8FAFC;
 
-border-radius:16px;
+border-radius:18px;
 
 border:1px solid var(--border);
 
@@ -45,20 +42,16 @@ box-shadow:var(--shadow);
 
 .about-card h3{
 
-margin-bottom:20px;
+margin-bottom:24px;
 
 color:var(--secondary);
 
 }
 
-.about-card ul{
-
-list-style:none;
-
-}
-
 .about-card li{
 
-margin-bottom:14px;
+margin-bottom:16px;
+
+font-weight:600;
 
 }

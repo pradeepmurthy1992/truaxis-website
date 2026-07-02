@@ -1,50 +1,34 @@
 import React from "react";
 import Container from "../../components/layout/Container";
 
-function Services() {
-  const services = [
-    {
-      title: "Passenger Lift Inspection",
-      description:
-        "Comprehensive inspection of passenger lifts for safety, operational performance and reliability.",
-    },
-    {
-      title: "Freight Lift Inspection",
-      description:
-        "Independent inspection of freight lifts to assess safe operation and equipment condition.",
-    },
-    {
-      title: "Escalator Inspection",
-      description:
-        "Technical inspection of escalators and moving walkways for operational safety and performance.",
-    },
-    {
-      title: "Periodic Safety Inspection",
-      description:
-        "Scheduled inspections to monitor equipment health and operational safety.",
-    },
-    {
-      title: "Third-Party Inspection",
-      description:
-        "Independent inspections during installation, handover or project completion.",
-    },
-    {
-      title: "Installation Inspection",
-      description:
-        "Assessment of newly installed vertical transportation systems before operation.",
-    },
-    {
-      title: "Modernization Inspection",
-      description:
-        "Inspection following modernization or major equipment upgrades.",
-    },
-    {
-      title: "Technical Assessment",
-      description:
-        "Condition assessment and professional reporting for existing equipment.",
-    },
-  ];
+const services = [
+  {
+    title: "Passenger Lift Inspection",
+    desc: "Independent inspection of passenger lifts for operational safety and compliance."
+  },
+  {
+    title: "Freight Lift Inspection",
+    desc: "Technical evaluation of freight lift installations and performance."
+  },
+  {
+    title: "Escalator Inspection",
+    desc: "Comprehensive inspection of escalators and moving walkways."
+  },
+  {
+    title: "Third Party Inspection",
+    desc: "Independent assessment during installation and project handover."
+  },
+  {
+    title: "Periodic Inspection",
+    desc: "Routine inspection programs supporting long-term safety."
+  },
+  {
+    title: "Modernization Review",
+    desc: "Inspection following equipment upgrades or modernization."
+  }
+];
 
+function Services() {
   return (
     <section id="services" className="services">
       <Container>
@@ -54,27 +38,29 @@ function Services() {
         </p>
 
         <h2 className="section-title">
-          Inspection Services We Offer
+          Professional Inspection Services
         </h2>
 
         <div className="services-grid">
 
           {services.map((service) => (
 
-            <article
-              key={service.title}
+            <div
               className="service-card"
+              key={service.title}
             >
 
               <div className="service-icon">
-                🔍
+
+                □
+
               </div>
 
               <h3>{service.title}</h3>
 
-              <p>{service.description}</p>
+              <p>{service.desc}</p>
 
-            </article>
+            </div>
 
           ))}
 
